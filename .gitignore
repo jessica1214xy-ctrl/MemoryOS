@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+
+# next.js build output
+.next/
+.next-build/
+
+# logic-test compiled output
+.verify-build/
+
+# env / secrets
+.env
+.env.local
+.env*.local
+
+# tooling / workspace config (not part of the product)
+.workbuddy/
+
+# typescript / editor
+*.tsbuildinfo
+.DS_Store
+
+# temp build workaround config (not part of the product)
+.next.build.config.mjs
+
+# logs
+npm-debug.log*
+*.log

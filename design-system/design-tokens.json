@@ -1,0 +1,149 @@
+{
+  "$schema": "memoryos-design-tokens/v1",
+  "meta": {
+    "product": "MemoryOS",
+    "designer": "颜好看",
+    "date": "2026-10-16",
+    "register": "product",
+    "axes": { "variance": 5, "motion": 4, "density": 4 },
+    "note": "所有色值经 Token 管理，前端禁止硬编码（仅 #fff/#000 例外，且本项目基本不用纯黑纯白）。"
+  },
+
+  "color": {
+    "light": {
+      "background":          "#f8fafc",
+      "surface":            "#ffffff",
+      "surface-2":          "#f1f5f9",
+      "foreground":         "#0f172a",
+      "foreground-2":       "#334155",
+      "muted-foreground":   "#64748b",
+      "border":             "#e2e8f0",
+      "border-strong":      "#cbd5e1",
+      "primary":            "#1a56db",
+      "primary-hover":      "#1545a8",
+      "primary-foreground": "#ffffff",
+      "interactive":        "#3b82f6",
+      "interactive-hover":  "#2563eb",
+      "ai":                "#10b981",
+      "ai-hover":          "#059669",
+      "ai-foreground":     "#ffffff",
+      "ai-soft":           "#ecfdf5",
+      "accent-soft":       "#eff6ff",
+      "warn":              "#d97706",
+      "warn-foreground":   "#ffffff",
+      "destructive":       "#dc2626",
+      "destructive-foreground": "#ffffff",
+      "ring":              "#1a56db"
+    },
+    "dark": {
+      "background":          "#0b1120",
+      "surface":            "#0f172a",
+      "surface-2":          "#1e293b",
+      "foreground":         "#f8fafc",
+      "foreground-2":       "#cbd5e1",
+      "muted-foreground":   "#94a3b8",
+      "border":             "#1f2937",
+      "border-strong":      "#334155",
+      "primary":            "#3b82f6",
+      "primary-hover":      "#60a5fa",
+      "primary-foreground": "#0b1120",
+      "interactive":        "#60a5fa",
+      "interactive-hover":  "#93c5fd",
+      "ai":                "#34d399",
+      "ai-hover":          "#10b981",
+      "ai-foreground":     "#052e22",
+      "ai-soft":           "#064e3b",
+      "accent-soft":       "#1e293b",
+      "warn":              "#fbbf24",
+      "warn-foreground":   "#1c1917",
+      "destructive":       "#f87171",
+      "destructive-foreground": "#1c1917",
+      "ring":              "#3b82f6"
+    }
+  },
+
+  "font": {
+    "sans": "\"Manrope\", \"Noto Sans SC\", -apple-system, BlinkMacSystemFont, \"Segoe UI\", sans-serif",
+    "mono": "\"JetBrains Mono\", \"Noto Sans SC\", ui-monospace, monospace",
+    "size": {
+      "xs": "0.75rem", "sm": "0.875rem", "base": "1rem", "lg": "1.125rem",
+      "xl": "1.25rem", "2xl": "1.5rem", "3xl": "1.875rem", "4xl": "2.25rem"
+    },
+    "weight": { "regular": 400, "medium": 500, "semibold": 600, "bold": 700 },
+    "leading": { "tight": 1.2, "snug": 1.35, "normal": 1.5, "relaxed": 1.65 },
+    "tracking": { "tight": "-0.01em", "normal": "0", "caps": "0.06em" }
+  },
+
+  "spacing": {
+    "1": "4px", "2": "8px", "3": "12px", "4": "16px", "5": "20px",
+    "6": "24px", "8": "32px", "10": "40px", "12": "48px", "16": "64px"
+  },
+
+  "radius": {
+    "sm": "6px", "md": "8px", "lg": "12px", "xl": "16px", "full": "9999px"
+  },
+
+  "shadow": {
+    "xs": "0 1px 2px rgba(15,23,42,0.04)",
+    "sm": "0 1px 3px rgba(15,23,42,0.06), 0 1px 2px rgba(15,23,42,0.04)",
+    "md": "0 4px 12px rgba(15,23,42,0.08)",
+    "lg": "0 12px 32px rgba(15,23,42,0.12)"
+  },
+
+  "motion": {
+    "fast": "150ms", "base": "200ms", "slow": "300ms",
+    "ease-standard": "cubic-bezier(0.2,0,0,1)",
+    "ease-out": "cubic-bezier(0.16,1,0.3,1)"
+  },
+
+  "z": {
+    "base": 0, "dropdown": 1000, "sticky": 1100, "modal": 1200, "toast": 1300
+  },
+
+  "layout": {
+    "container-max": "1200px",
+    "container-narrow": "720px",
+    "nav-width": "240px",
+    "panel-width": "360px",
+    "breakpoint-sm": "640px", "breakpoint-md": "768px",
+    "breakpoint-lg": "1024px", "breakpoint-xl": "1280px"
+  },
+
+  "icon": {
+    "library": "lucide-react",
+    "license": "MIT",
+    "sizes": [16, 20, 24],
+    "stroke": 1.75,
+    "color-mode": "currentColor (Tailwind text-* classes)",
+    "forbid-emoji": true,
+    "forbid-mixed-libraries": true,
+    "map": {
+      "timeline": "Clock",
+      "reminder": "Bell",
+      "knowledge-base": "Brain",
+      "knowledge-base-alt": "BookOpen",
+      "search": "Search",
+      "device-lab": "Monitor",
+      "device-phone": "Smartphone",
+      "device-tablet": "Tablet",
+      "device-email": "Mail",
+      "device-wechat": "MessageCircle",
+      "qa-assistant": "MessageSquare",
+      "sync": "RefreshCw",
+      "tag": "Tag",
+      "snooze": "AlarmClock",
+      "dismiss": "BellOff",
+      "archive": "Archive",
+      "copy": "Copy",
+      "cite": "Link",
+      "connect-device": "Plug",
+      "loading": "LoaderCircle",
+      "success": "Check",
+      "warning": "AlertTriangle",
+      "send": "ArrowUp",
+      "settings": "Settings",
+      "close": "X"
+    },
+    "ai-marker": "2px blue→green gradient line (CSS only, not an icon)"
+  }
+}

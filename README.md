@@ -97,3 +97,15 @@ design-system/  Design Token 与设计规范
 ## 许可证
 
 [MIT](LICENSE) — 发布前请把版权署名改为你自己的名字。
+
+## 产品文档（扩展设备记忆代理）
+
+面向"终端形态集成与跨端协调"的完整产品文档，位于 [`docs/`](docs/)：
+
+| 文档 | 内容 |
+|------|------|
+| [终端形态集成与跨端协调方案](docs/00-integration-strategy.md) | 原生 App / 微信小程序 / 其他小程序对比、主形态推荐、身份/数据/体验协调机制 |
+| [PRD](docs/01-PRD-device-memory-agent.md) | 功能规格、用户故事、优先级（MoSCoW + RICE）、验收标准、Out-of-Scope |
+| [设计稿件说明](docs/02-design-spec.md) | 核心页面清单、关键页面说明、交互流程、一致性规范 |
+| [端到端全流程文档](docs/03-e2e-flow.md) | 总体架构、用户旅程、数据流转、时序、异常降级、度量 |
+| [产品介绍手册](docs/04-product-manual.md) | 用户版（对外）+ 内部团队版（定位/路线图/分工/ADR） |
